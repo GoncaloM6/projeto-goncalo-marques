@@ -6,20 +6,21 @@ url: "https://rohanchandra.github.io/"
 theme_settings:
   # Meta
   title: Gonçalo Marques
-  avatar: assets/img/avatar.png
-  favicon: assets/favicon.ico
+  avatar: assets/img/profile-picture.JPG
+  favicon: assets/brainstorming_brain_idea_lightbulb_light_icon_193914.ico
   gravatar: # Email MD5 hash
   description: "A Product Designer's Portfolio" # used by search engines
 
   # Header and footer text
-  header_text:
+  header_text: >
+    Hey there! I'm a Product Design based in Lisbon, Portugal
   header_text_feature_image:
   footer_text: >
-   Contacts and Infos
+    Contacts and Infos
 
   # Icons
   rss: false
-  email_address: goncalojlmarques@gmail.com # Full email address, e.g. "sam@example.com"
+  email_address: # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
