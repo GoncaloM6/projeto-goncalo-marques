@@ -1,12 +1,12 @@
 // Mix-ins
 %padding-small {
-  padding: $padding-x-small $padding-x-small * 2;
+  padding: $padding-x-small / 2 $padding-x-small * 2;
   @media (max-width: 1000px) {
     padding: $padding-x-small $padding-x-small;
   }
 }
 %padding-regular {
-  padding: $padding-small $padding-large;
+  padding: $padding-small $padding-large $padding-small $padding-x-small * 2;
   @media (max-width: 1000px) {
     padding: $padding-small * 1.5 $padding-large / 1.6;
   }

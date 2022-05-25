@@ -268,15 +268,6 @@ tags: [sample, markdown, html]
 
 A tags listing will be automatically generated using the `tags.html` file provided in Type Theme. If you're not using the tags feature it is safe to delete `tags.html`.
 
-### Search
-
-The search feature can be activated in the `_config.yml` file by changing its value from `false` to `true`.
-
-```yml
-  #Scripts
-  search: true
-```
-
 Once activated, the search bar will appear in the header. This feature uses [Lunr](https://lunrjs.com/) and searches through the title, tags and content of your posts.
 
 ### Subtitles

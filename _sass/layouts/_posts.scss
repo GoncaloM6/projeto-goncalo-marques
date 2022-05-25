@@ -4,7 +4,7 @@
 article,
 .comments {
   @extend %padding-regular;
-  border-bottom: 1px solid $border-color;
+  border-bottom: 3px solid $border-color;
   float: left;
   width: 100%;
 }
@@ -16,7 +16,6 @@ article {
   }
   header {
     margin-bottom: 6%;
-    text-align: center;
   }
   a {
     @extend .body-link;

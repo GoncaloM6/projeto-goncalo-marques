@@ -1,20 +1,18 @@
 // Header text feature
 .call-out {
   @extend %padding-regular;
-  display: inline-block;
+  background-color: $header-desc-background-color;
+  background-image: linear-gradient( $link-color, $background-color);
   width: 100%;
-  background-color:$header-desc-background-color;
-  background-size: cover;
-  font-size: 1.2em;
-  text-align: center;
+  height: 100vh;
+  font-size: 2.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   color: $header-desc-text-color;
 }
-.call-out p:last-child {
-  margin-bottom: 0;
-}
-.call-out a {
-  color: $header-desc-link-color
-}
+
 // Post listing
 .posts {
   .post-teaser {
@@ -23,7 +21,7 @@
     margin-bottom: 0;
     display: inline-block;
     background-size: $feature-image-size;
-    border-bottom: 1px solid $border-color;
+    border-bottom: 3px solid $border-color;
     p a {
       @extend .body-link;
     }

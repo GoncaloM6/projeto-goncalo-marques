@@ -9,38 +9,14 @@ theme_settings:
   avatar: assets/img/profile-picture.JPG
   favicon: assets/brainstorming_brain_idea_lightbulb_light_icon_193914.ico
   gravatar: # Email MD5 hash
-  description: "A Product Designer's Portfolio" # used by search engines
+  description: "A Product Designer's Portfolio"
 
   # Header and footer text
   header_text: >
-    Hey there! I'm a Product Design based in Lisbon, Portugal
+    Hey there! I'm a Product Designer based in Lisbon, Portugal
   header_text_feature_image:
   footer_text: >
     Contacts and Infos
-
-  # Icons
-  rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
-  behance:
-  bitbucket:
-  dribbble:
-  facebook:
-  flickr:
-  gitlab:
-  github:
-  gitter:
-  google_plus:
-  instagram:
-  linkedin:  # Full URL
-  pinterest:
-  reddit:
-  soundcloud:
-  stack_exchange:  # Full URL
-  steam:
-  tumblr:
-  twitter:
-  wordpress:
-  youtube:
 
   # Scripts
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
@@ -55,14 +31,13 @@ theme_settings:
   str_next_post: "Next post"
   str_previous_post: "Previous post"
   str_next_page: "Next"
-  str_previous_page: "Prev"
-  str_continue_reading: "Continue reading"
+  str_previous_page: "Previous"
+  str_continue_reading: "Read more about it"
   str_javascript_required_disqus: "Please enable JavaScript to view comments."
-  str_search_no_results: "No results found."
+  str_search_no_results: "There's nothing here"
 
   # Colours, typography and padding
-  # Open the "_sass > base" folder, and open "_variables.scss"
-  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
+  google_fonts: "Plus+Jakarta+Sans:400,700,700italic,400italic"
 
   # Post navigation
   post_navigation: false

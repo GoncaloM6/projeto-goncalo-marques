@@ -1,10 +1,11 @@
 .site-header {
   @extend %padding-small;
   background: $brand-color;
-  border-bottom: 1px solid $border-color;
+  border-bottom: 3px solid $border-color;
   display: inline-block;
   float: left;
   width: 100%;
+  position: fixed;
 
   a {
     color: $header-link-color;
@@ -22,6 +23,7 @@
   .site-title {
     float: left;
     font-weight: bold;
+    text-transform: uppercase;
     font-size: 1em;
     line-height: 1.5;
   }
@@ -43,7 +45,7 @@
         margin-right: 0;
       }
     }
-    @media (max-width: 1100px) {
+    @media (max-width: 1000px) {
       ul {
         display: inline-block;
         float: left;
@@ -53,40 +55,4 @@
       }
     }
   }
-
-    /* --- Search form --- */
-    form {
-        border: 0;
-        border-bottom: 2px solid $search-color;
-        outline: 0;
-
-        *:focus {
-            outline: none;
-        }
-
-        input{
-            &[type=text] {
-                box-sizing: border-box;
-                border: 0;
-                outline: 0;
-                color: $search-color;
-            }
-
-            &::-moz-placeholder {
-                color: $search-color;
-                opacity: 1;
-            }
-
-            &:-ms-input-placeholder, &::-webkit-input-placeholder {
-                color: $search-color;
-            }
-        }
-
-        button {
-           border: none;
-           font-size: 0.9em;
-           background-color: $brand-color;
-           color: $search-color;
-        }
-    }
 }
