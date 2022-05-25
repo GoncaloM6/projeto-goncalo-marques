@@ -1,8 +1,7 @@
 // Header text feature
 .call-out {
   @extend %padding-regular;
-  background-color: $header-desc-background-color;
-  background-image: linear-gradient( $link-color, $background-color);
+  background-image: linear-gradient( $link-color, rgba(0,0,255,0));
   width: 100%;
   height: 100vh;
   font-size: 2.5em;

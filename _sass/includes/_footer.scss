@@ -1,6 +1,6 @@
 .site-footer {
   @extend %padding-regular;
-  background-image: linear-gradient( $background-color, $link-color);
+  background-image: linear-gradient( rgba(0,0,255,0), $link-color);
   display: inline-block;
   width: 100%;
   font-size: 0.9em;

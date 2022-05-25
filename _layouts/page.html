@@ -2,7 +2,7 @@
 layout: default
 ---
 <article {% if page.feature-img %}class="feature-image"{% endif %}>
-  <header style="background-image: linear-gradient( #00f, #000)">
+  <header style="background-image: linear-gradient( rgba(0,0,255,1), rgba(0,0,255,0))">
     <h1 class="title">{{ page.feature-title | default: page.title }}</h1>
     {% if page.subtitle %}<h2 class="subtitle">{{ page.subtitle }}</h2>{% endif %}
   </header>

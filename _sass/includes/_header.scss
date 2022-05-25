@@ -5,7 +5,8 @@
   display: inline-block;
   float: left;
   width: 100%;
-  position: fixed;
+  position: sticky;
+  top: 0;
 
   a {
     color: $header-link-color;

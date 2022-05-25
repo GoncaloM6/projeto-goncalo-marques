@@ -8,7 +8,7 @@ theme_settings:
   title: Gonçalo Marques
   avatar: assets/img/profile-picture.JPG
   favicon: assets/brainstorming_brain_idea_lightbulb_light_icon_193914.ico
-  gravatar: # Email MD5 hash
+  gravatar:
   description: "A Product Designer's Portfolio"
 
   # Header and footer text
@@ -19,10 +19,9 @@ theme_settings:
     Contacts and Infos
 
   # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  google_analytics:
   disqus_shortname:
-  katex: true # Enable if using math markup
-  search: false # Enable the search feature
+  katex: true
 
   # Localization strings
   str_follow_on: "Follow on"
