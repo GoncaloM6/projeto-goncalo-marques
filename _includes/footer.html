@@ -4,6 +4,12 @@
 
 {% if site.theme_settings.footer_text %}
 <footer class="site-footer">
-	<p class="text">{{ site.theme_settings.footer_text }}</p>
+	<ul class="footertext">
+		{% for account in site.data.contacts %}
+		<li class="horlist">
+			<h5><a href="{{ account.url }}" target="_blank">{{ account.platform }}</a></h5>
+		</li>
+		{% endfor %}
+	</ul>
 </footer>
 {% endif %}

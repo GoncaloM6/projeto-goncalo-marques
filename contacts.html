@@ -6,20 +6,10 @@ feature-img: "assets/img/sample_feature_img.png"
 ---
 <h2>Let's Talk</h2>
 <ul>
-    <li>
-        <h3>Linkedin:</h3>
-        <a>goncalo-j-l-marques</a>
+    {% for account in site.data.contacts %}
+    <li class="horlist">
+        <h3>{{ account.platform }} - </h3>
+        <a href="{{ account.url }}" target="_blank">{{ account.username }}</a>
     </li>
-    <li>
-        <h3>Behance:</h3>
-        <a>goncalo-j-l-marques</a>
-    </li>
-    <li>
-        <h3>e-mail:</h3>
-        goncalojlmarques@gmail.com
-    </li>
-    <li>
-        <h3>phone:</h3>
-        +351 914157091
-    </li>
+    {% endfor %}
 </ul>

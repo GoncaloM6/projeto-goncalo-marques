@@ -16,6 +16,7 @@ html {
 
 svg {
   position: fixed;
+  stroke-width: 2;
   top: 0;
   right: 0;
   width: 75vh;
@@ -46,8 +47,10 @@ body {
   color: $text-color;
   font-family: $font-family-main;
   font-size: $font-size;
+  height: 100%;
   word-wrap: break-word;
 }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-family-headings;
   line-height: 1.2;
@@ -117,6 +120,16 @@ p, ol, ul, dl, .math-display {
   display: inline-block;
   width: 100%;
 }
+
+li {
+  list-style-type: none;
+}
+
+.horlist {
+  display: flex;
+  align-items: center;
+}
+
 // Lists within lists
 li > ul, li > ol {
     margin-bottom: 0;
