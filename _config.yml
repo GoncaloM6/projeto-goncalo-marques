@@ -8,7 +8,6 @@ theme_settings:
   title: Gonçalo Marques
   avatar: assets/img/profile-picture.JPG
   favicon: assets/brainstorming_brain_idea_lightbulb_light_icon_193914.ico
-  gravatar:
   description: "A Product Designer's Portfolio"
 
   # Header and footer text
@@ -18,28 +17,12 @@ theme_settings:
   footer_text: >
     Contacts and Infos
 
-  # Scripts
-  google_analytics:
-  disqus_shortname:
-  katex: true
-
   # Localization strings
-  str_follow_on: "Follow on"
-  str_rss_follow: "Follow RSS feed"
-  str_email: "Email"
-  str_next_post: "Next post"
-  str_previous_post: "Previous post"
-  str_next_page: "Next"
-  str_previous_page: "Previous"
   str_continue_reading: "Read more about it"
-  str_javascript_required_disqus: "Please enable JavaScript to view comments."
   str_search_no_results: "There's nothing here"
 
   # Colours, typography and padding
   google_fonts: "Plus+Jakarta+Sans:400,700,700italic,400italic"
-
-  # Post navigation
-  post_navigation: false
 
 # PAGINATION
 paginate: 5
@@ -51,7 +34,6 @@ highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
-plugins: [jekyll-paginate]
 exclude:
   - Gemfile
   - Gemfile.lock
