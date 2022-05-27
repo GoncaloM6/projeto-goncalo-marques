@@ -22,7 +22,7 @@ svg {
   width: 75vh;
   height: 75vh;
   z-index: -1;
-  color: #383838;
+  color: $svg-color;
   animation: spin 8s linear infinite;
 }
 
