@@ -4,11 +4,14 @@ title: Contacts
 permalink: /contacts/
 feature-img: "assets/img/sample_feature_img.png"
 ---
+<picture>
+    <img class="" src="{{ site.baseurl }}\assets\img\profile-picture.JPG" alt="photograph of Gonçalo Marques in a white background">
+</picture>
 <h2>Let's Talk</h2>
 <ul>
     {% for account in site.data.contacts %}
     <li class="horlist">
-        <h3>{{ account.platform }} - </h3>
+        <h4>{{ account.platform }} - </h4>
         <a href="{{ account.url }}" target="_blank">{{ account.username }}</a>
     </li>
     {% endfor %}

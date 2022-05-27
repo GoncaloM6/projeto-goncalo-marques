@@ -1,7 +1,8 @@
 .site-header {
   @extend %padding-small;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
   align-items: center;
   background: $brand-color;
   border-bottom: 3px solid $border-color;
@@ -48,20 +49,12 @@
         margin-right: 0;
       }
     }
-    @media (max-width: 1000px) {
-      ul {
-        float: left;
-        padding-top: $padding-small;
-        text-align: left;
-        width: 100%;
-      }
-    }
   }
 }
 
-@media (max-width: 1000px) {
+@media (min-width: 1000px) {
   .site-header {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }

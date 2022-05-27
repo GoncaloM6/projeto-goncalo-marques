@@ -1,12 +1,17 @@
 .site-footer {
-  @extend %padding-regular;
+  @extend %padding-small;
   background-image: linear-gradient( rgba(0,0,255,0), $link-color);
   display: inline-block;
   width: 100%;
   font-size: 0.9em;
+  bottom: 0;
 }
 
 .footertext {
   display: flex;
-  justify-content: space-between;
+  flex-flow: column nowrap;
+  @media (min-width: 1000px) {
+    flex-direction: row;
+    justify-content:space-between;
+  }
 }

@@ -3,10 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 figure {
   margin: 0;
 }
-// For correct line number width in Github Gists
+
 .gist table tbody tr td {
   box-sizing: content-box;
 }
@@ -24,6 +25,11 @@ svg {
   z-index: -1;
   color: $svg-color;
   animation: spin 8s linear infinite;
+}
+
+.horlist {
+  display: flex;
+  align-items: center;
 }
 
 // Animation
@@ -115,19 +121,9 @@ p, ol, ul, dl, .math-display {
   line-height: 1.5;
   margin-bottom: 1em;
 }
-// KaTeX math display
-.math-display {
-  display: inline-block;
-  width: 100%;
-}
 
 li {
   list-style-type: none;
-}
-
-.horlist {
-  display: flex;
-  align-items: center;
 }
 
 // Lists within lists
